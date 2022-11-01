@@ -1,0 +1,7 @@
+#!/bin/bash
+
+xcompmgr -c &
+xrdb --merge .Xresources &
+slstatus &
+nitrogen --restore &
+exec dwm
