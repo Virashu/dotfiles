@@ -1,14 +1,24 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin()
+Plug 'vim-airline/vim-airline'
+Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+call plug#end()
+" Make <CR> to accept selected completion item or notify coc.nvim to format
+" <C-g>u breaks current undo, please make your own choice.
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
 
-Plugin 'Vundle/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-
-call vundle#end()
-filetype plugin indent on
-
+inoremap <silent><expr> <Tab>
+      \ coc#pum#visible() ? coc#pum#next(0) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+colorscheme gruvbox
+let g:airline_powerline_fonts = 1
 set clipboard=unnamedplus
 set nu
 set rnu
