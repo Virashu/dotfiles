@@ -28,4 +28,4 @@ if [[ $ans == 'n' ]] || [[ $ans == 'N' ]]; then
 	echo "Quitting..."
 	exit
 if [[ $ans == 'y' ]] || [[ $ans == 'Y' ]] || [[ $ans == '' ]]; then
-	cp ./!(quickinstall.sh) ~/
+	rsync -av --progress ./ $HOME/ --exclude quickinstall.sh
