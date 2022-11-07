@@ -3,7 +3,7 @@
 ! PC
 Xft.dpi: 96
 
-st.font: Libre Mono:size=12
+st.font: Liberation Mono:size=12
 
 dwm.normbgcolor: #282828
 dwm.normfgcolor: #ebdbb2
@@ -11,7 +11,7 @@ dwm.normfgcolor: #ebdbb2
 
 *.foreground: #ebdbb2
 *.background: #282828
-*.cursorColor: #ebdbb2
+st.cursorColor: #ebdbb2
 *.color0: #1d2021
 *.color1: #cc241d
 *.color2: #98971a

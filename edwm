@@ -3,5 +3,6 @@
 xcompmgr -c &
 xrdb --merge .Xresources &
 slstatus &
-nitrogen --restore &
+#nitrogen --restore &
+sh ~/.fehbg &
 exec dwm
