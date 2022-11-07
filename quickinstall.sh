@@ -27,5 +27,7 @@ read -p "Wish to move dotfiles? [Y/n]" ans
 if [[ $ans == 'n' ]] || [[ $ans == 'N' ]]; then
 	echo "Quitting..."
 	exit
+fi
 if [[ $ans == 'y' ]] || [[ $ans == 'Y' ]] || [[ $ans == '' ]]; then
 	rsync -av --progress ./ $HOME/ --exclude quickinstall.sh
+fi
