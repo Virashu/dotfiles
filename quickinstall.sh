@@ -29,5 +29,5 @@ if [[ $ans == 'n' ]] || [[ $ans == 'N' ]]; then
 	exit
 fi
 if [[ $ans == 'y' ]] || [[ $ans == 'Y' ]] || [[ $ans == '' ]]; then
-	rsync -av --progress ./ $HOME/ --exclude quickinstall.sh
+	rsync -av --progress ./ $HOME/ --exclude quickinstall.sh --exclude .git
 fi
