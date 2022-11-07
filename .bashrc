@@ -135,5 +135,4 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-alias config='/usr/bin/git --git-dit=/home/virashu/.cfg/ --work-tree=/home/virashu'
 alias config='/usr/bin/git --git-dir=/home/virashu/.cfg/ --work-tree=/home/virashu'
