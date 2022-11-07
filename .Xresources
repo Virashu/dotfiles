@@ -1,4 +1,9 @@
-Xft.dpi: 192
+! Laptop
+!Xft.dpi: 192
+! PC
+Xft.dpi: 96
+
+st.font: Libre Mono:size=12
 
 dwm.normbgcolor: #282828
 dwm.normfgcolor: #ebdbb2
