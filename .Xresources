@@ -1,9 +1,11 @@
 ! Laptop
-!Xft.dpi: 192
+Xft.dpi: 192
 ! PC
-Xft.dpi: 96
+!Xft.dpi: 96
 
-st.font: Liberation Mono:size=12
+Xcursor.size: 48
+
+!st.font: Liberation Mono:size=12
 
 dwm.normbgcolor: #282828
 dwm.normfgcolor: #ebdbb2
