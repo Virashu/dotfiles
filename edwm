@@ -1,6 +1,6 @@
 #!/bin/bash
 
-picom &> ~/log.txt
+picom &
 xrdb --merge .Xresources &
 slstatus &
 sh ~/.fehbg &
