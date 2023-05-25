@@ -116,7 +116,9 @@ export PATH="/home/virashu/.cargo/bin:/usr/lib/w3m:$PATH"
 alias py='python'
 alias cls='clear'
 alias lc='colorls'
+alias rm='rm -a'
 
 source $(dirname $(gem which colorls))/tab_complete.sh
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin"
+

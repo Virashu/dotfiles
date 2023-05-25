@@ -26,3 +26,7 @@ let g:airline_powerline_fonts = 1
 set clipboard=unnamedplus
 set nu
 set rnu
+set tabstop=2
+set shiftwidth=2
+set expandtab
+hi Normal guibg=NONE ctermbg=NONE
