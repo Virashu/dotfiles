@@ -23,10 +23,12 @@ inoremap <silent><expr> <Tab> pumvisible() ? coc#_select_confirm() : "\<Tab>"
 
 colorscheme gruvbox
 let g:airline_powerline_fonts = 1
-set clipboard=unnamedplus
+"set clipboard+=unnamedplus
+set clipboard+=unnamed
 set nu
 set rnu
 set tabstop=2
 set shiftwidth=2
-set expandtab
+set noexpandtab
+"set autoindent noexpandtab tabstop=4 shiftwidth=4
 hi Normal guibg=NONE ctermbg=NONE

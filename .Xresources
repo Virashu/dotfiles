@@ -11,6 +11,7 @@ Xcursor.size: 48
 dwm.borderpx: 0
 dwm.vertpad: 8
 dwm.sidepad: 8
+dwm.topbar: 1
 
 ! AUTO PYTHON START
 dwm.normbgcolor: #282828

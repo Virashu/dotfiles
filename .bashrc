@@ -136,3 +136,4 @@ ex ()
   fi
 }
 alias config='/usr/bin/git --git-dir=/home/virashu/.cfg/ --work-tree=/home/virashu'
+alias f='firefox'

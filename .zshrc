@@ -117,6 +117,12 @@ alias py='python'
 alias cls='clear'
 alias lc='colorls'
 alias rm='rm -a'
+alias m='mv -t ~/.trash'
+alias c='cd'
+alias f='function _f(){nohup firefox $1 &};_f'
+alias sudo make instll='sudo make install'
+alias smi='sudo make install'
+alias n='neofetch --kitty ./Pictures/10580375.png --size 26%'
 
 source $(dirname $(gem which colorls))/tab_complete.sh
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
