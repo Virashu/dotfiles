@@ -1,45 +1,44 @@
-
-! Laptop
-Xft.dpi: 192
-! PC
-!Xft.dpi: 96
-
-Xcursor.size: 48
-
-!st.font: Liberation Mono:size=12
-
-dwm.borderpx: 0
-dwm.vertpad: 8
-dwm.sidepad: 8
-dwm.topbar: 1
-
-! AUTO PYTHON START
-dwm.normbgcolor: #282828
-dwm.normfgcolor: #ebdbb2
-dwm.normbordercolor: #282828
-
-dwm.selfgcolor: #505050
+*.background:	#282828
+*.bg0:	#282828
+*.bg1:	#3c3836
+*.bg2:	#504945
+*.bg3:	#665c54
+*.bg4:	#ffffff
+*.color0:	#1d2021
+*.color1:	#cc241d
+*.color10:	#b8bb26
+*.color11:	#fabd2f
+*.color12:	#83a598
+*.color13:	#d3869b
+*.color14:	#8ec07c
+*.color15:	#fbf1c7
+*.color2:	#98971a
+*.color3:	#d79921
+*.color4:	#458588
+*.color5:	#b16286
+*.color6:	#689d6a
+*.color7:	#928374
+*.color8:	#7c6f64
+*.color9:	#fb4934
+*.font:	"FiraCode Nerd Font"
+*.foreground:	#ebdbb2
+XMenu.borderWidth:	0
+XMenu.faceName:	"FiraCode Nerd Font"
+XMenu.faceSize:	16
+XMenu.gap:	8
+Xcursor.size:	48
+Xft.dpi:	192
+dwm.barborder:	0
+dwm.borderpx:	0
+dwm.normbgcolor:	#282828
+dwm.normbordercolor:	#282828
+dwm.normfgcolor:	#ebdbb2
 dwm.selbgcolor: #b8bb26
-dwm.selbordercolor: #cccccc
-
-*.foreground: #ebdbb2
-*.background: #282828
-st.cursorColor: #ebdbb2
-*.color0: #1d2021
-*.color1: #cc241d
-*.color2: #98971a
-*.color3: #d79921 ! dark yellow
-*.color4: #458588 ! dark blue
-*.color5: #b16286
-*.color6: #689d6a
-*.color7: #928374
-
-*.color8: #7c6f64
-*.color9: #fb4934 ! red
-*.color10: #b8bb26 ! green?
-*.color11: #fabd2f ! yellow
-*.color12: #83a598 ! blue
-*.color13: #d3869b
-*.color14: #8ec07c
-*.color15: #fbf1c7
-! AUTO PYTHON END
+dwm.selbordercolor: #b8bb26
+dwm.selfgcolor:	#505050
+dwm.sidepad:	16
+dwm.topbar:	1
+dwm.vertpad:	8
+kitty.background_opacity:	0.7
+st.cursorColor:	#cccccc
+wallpaper:	/home/virashu/Pictures/wallpaper/arch_gruvbox_dark.png

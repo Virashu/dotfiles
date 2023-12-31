@@ -1,12 +1,18 @@
 #!/bin/bash
 
+node ~/dev/git/localhost/server.js &
 setxkbmap -option
-setxkbmap -layout us,ru,jp
+setxkbmap -layout us,ru
 dunst -config ~/.config/dunst/gruvbox.conf &
 bash ~/scripts/battery_alert.sh &
-bash ~/scripts/player.sh &
+bash ~/scripts/player.sh>/dev/null 2>/dev/null &
 picom &
 xrdb -merge .Xresources &
-slstatus &
+#slstatus &
+pypy3 /home/virashu/dev/git/pystatus/status.py &
 sh ~/.fehbg &
-exec dwm >> ~/.logs/dwm.log
+
+while true ; do
+    dwm >~/.logs/dwm.log 2>&1 || break
+done 
+
